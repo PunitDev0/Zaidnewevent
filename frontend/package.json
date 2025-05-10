@@ -2,7 +2,7 @@
   "name": "eventplan",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:1200",
+  "proxy": "https://aryanevents.com/razorpay/public/api/razorpay/store",
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^1.0.6",

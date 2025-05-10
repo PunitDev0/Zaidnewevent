@@ -22,14 +22,22 @@ import RetirementParty from "../pages/retirementparty";
 import ThemeParty from "../pages/ThemeParty";
 import ReunionParty from "../pages/reunionparty";
 import AlumuniMeet from "../pages/AlumuniMeet";
+import Pricing from "../pages/pricingPage";
+import PrivacyPolicy from "../pages/privacy_policy";
+import CancellationPolicy from "../pages/CancellationPolicy";
+import TermsAndConditions from "../pages/TermsAndConditions";
 const AppRoute = () => {
   return (
     <Router>
       <Header />
       <Routes>
         <Route path="/" element={<MainContent />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/cancellationpolicy" element={<CancellationPolicy />} />
+        <Route path="/termsandcondition" element={<TermsAndConditions />} />
         <Route path="/aboutus" element={<About />} /> 
         <Route path="/gallery" element={<Gallery/>} /> 
+        <Route path="/pricing" element={<Pricing/>} /> 
         <Route path="/blogpage" element={<BlogPage/>} /> 
         <Route path="/blog/birthday-planner" element={<BlogArticle1 />} /> 
         <Route path="/vlogPage" element={<BlogPage />} /> 

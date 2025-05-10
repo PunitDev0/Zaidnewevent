@@ -19,7 +19,7 @@ const Footer = () => {
           </div> 
  
           {/* Useful Links and Contact Info */} 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8"> 
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8"> 
             {/* Useful Links Section */} 
             <div> 
               <h4 className="philosopher-regular text-2xl font-semibold mb-4 bg-gradient-to-r from-[#d4af37] via-[#f8e45f] to-[#d4af37] bg-clip-text text-transparent">Useful Links</h4> 
@@ -28,6 +28,15 @@ const Footer = () => {
                 <li><a href="/aboutus" className="text-gray-400 philosopher-regular hover:text-white">About</a></li> 
                 <li><a href="/gallery" className="text-gray-400 philosopher-regular hover:text-white">Gallery</a></li> 
                 <li><a href="/contactpage" className="text-gray-400 philosopher-regular hover:text-white">Contact Us</a></li> 
+               
+              </ul> 
+            </div> 
+            <div> 
+              <h4 className="philosopher-regular text-2xl font-semibold mb-4 bg-gradient-to-r from-[#d4af37] via-[#f8e45f] to-[#d4af37] bg-clip-text text-transparent">Policys</h4> 
+              <ul className="space-y-2"> 
+                <li><a href="/privacypolicy" className="text-gray-400 philosopher-regular hover:text-white">PrviacyPolicy</a></li> 
+                <li><a href="/termsandcondition" className="text-gray-400 philosopher-regular hover:text-white">TermsAndCondition</a></li> 
+                <li><a href="/cancellationpolicy" className="text-gray-400 philosopher-regular hover:text-white">CancellationPolicy</a></li> 
                
               </ul> 
             </div> 
@@ -61,7 +70,7 @@ const Footer = () => {
           <p className="text-gray-400 ">
           Powered By<a href="https://nikatby.com/" className="text-gray-400 hover:text-white"> Nikatby Group</a>
           </p>
-          <p>H-169 , 1st Floor (up) Sector - 63, Noida Uttar Pradesh Pin-201301, <a href="tel:+91 9310842731">+91-931-0842731</a></p>
+
         </div>
       </div>
     </footer>
